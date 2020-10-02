@@ -1,0 +1,8 @@
+/node_modules/
+/package-lock.json
+/sso/node_modules
+/sso/package-lock.json
+/app1/node_modules
+/app1/package-lock.json
+/app2/node_modules
+/app2/package-lock.json
