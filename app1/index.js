@@ -1,7 +1,7 @@
 const Koa = require('koa')
 const session = require('koa-session')
 const useRouter = require('./router')
-const loginFilter  = require('./login/loginFilter')
+const loginFilter  = require('./filter/loginFilter')
 const app = new Koa()
 app.keys = ['some secret']
 //直接在node命令前添加环境变量即可
