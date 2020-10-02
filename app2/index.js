@@ -29,5 +29,5 @@ app.use(loginFilter())
 useRouter(app)
 
 app.listen(PORT, () => {
-    console.log(`app1服务启动，端口为：http://${process.env.DOMAIN}:${PORT}`)
+    console.log(`app2服务启动，端口为：http://${process.env.DOMAIN}:${PORT}`)
 })

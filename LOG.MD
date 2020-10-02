@@ -29,3 +29,5 @@ module.exports = function () {
 + ctx.request.header.host : 得到 域名 + 端口
 + ctx.render() : 配合koa-views进行模版渲染
 + ctx.redirect() : 重定向
+
+ 

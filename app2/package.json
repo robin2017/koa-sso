@@ -1,10 +1,10 @@
 {
-  "name": "app1",
+  "name": "app2",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "serve": "PORT=12801 DOMAIN=robinapp1.com node index.js"
+    "serve": "PORT=12802 DOMAIN=robinapp2.com node index.js"
   },
   "author": "",
   "license": "ISC",
