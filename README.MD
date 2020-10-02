@@ -20,3 +20,7 @@ npm run install:all
 ```
 npm run serve:all
 ```
+## 二、参考资料
+```
+https://github.com/hezhii/nodejs-sso-example 
+```
