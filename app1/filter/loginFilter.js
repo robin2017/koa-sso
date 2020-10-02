@@ -32,7 +32,7 @@ module.exports = function () {
                 let userId = data.userId
                 if (userId) {
                     ctx.session.user = userId
-                    console.log('准备渲染：')
+                    console.log('设置完session，准备渲染')
                     return await next()
                 } else {
                     ctx.redirect(`http://robinsso.com:12800?redirectUrl=http://${ctx.request.header.host}${ctx.request.url}`)
